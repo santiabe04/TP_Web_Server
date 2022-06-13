@@ -1,0 +1,16 @@
+.fotos {
+    width: 200px;
+    height: 200px;
+}
+
+#versus {
+    padding-left: 90px;
+}
+
+body {
+    background-color: #e4e4e7;
+}
+
+[type="radio"] {
+    margin: 10px;
+}

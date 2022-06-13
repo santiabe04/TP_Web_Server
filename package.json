@@ -1,0 +1,16 @@
+{
+  "name": "tp_web_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "dev":"nodemon ./server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "2.0.16"
+  }
+}

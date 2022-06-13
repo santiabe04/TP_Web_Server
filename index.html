@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+
+        <title>Godzilla vs Kong</title>
+        <link href="Styles/style.css" rel="stylesheet">
+
+    </head>
+
+    <body>
+
+        <h1>Debate Godzilla vs Kong</h1>
+
+        <main>
+
+            <div class="grupos">
+
+                <a href="#texto-godzilla">Texto Godzilla</a>
+                <a href="#texto-kong">Texto Kong</a>
+                <a href="#formulario">Formulario</a>
+
+            </div>
+
+            <hr>
+
+            <div class="grupos">
+
+                <h3 id="titulo-fotos">Fotos Personajes</h3>
+
+                <img class="fotos" src="Imgs/kong.jpg" alt="Kong">
+                <p id="versus">VS</p>
+                <img class="fotos" src="Imgs/godzilla.jpg" alt="Godzilla">
+
+            </div>
+
+            <hr>
+
+            <div class="grupos">
+
+                <h3 id="texto-godzilla">Godzilla</h3>
+                <p>Godzilla es un dinosaurio</p>
+
+            </div>
+
+            <hr>
+
+            <div class="grupos">
+
+                <h3 id="texto-kong">Kong</h3>
+                <p>Kong es un gorila</p>
+
+            </div>
+
+            <hr>
+            
+            <div class="grupos">
+
+                <h3 id="formulario">Formulario Kong o Godzilla</h3>
+
+                <form action="Scripts/enviarRespuesta">
+
+                    <input type="text" placeholder="Nombre usuario" required>
+                    <br>
+                    <label for="radio-1">
+
+                        <input id="radio-1" type="radio" value="radio-1" name="radio-elementos" checked>Godzilla
+
+                    </label>
+                    <br>
+                    <label for="radio-2">
+
+                        <input id="radio-2" type="radio" value="radio-2" name="radio-elementos">Kong
+
+                    </label>
+                    <br>
+                    <button type="submit">Enviar</button>
+
+                </form>
+
+            </div>
+
+        </main>
+
+        <hr>
+
+        <footer>
+
+            <p>Derechos de autor Santiago Abelle</p>
+
+        </footer>
+
+    </body>
+
+</html>
